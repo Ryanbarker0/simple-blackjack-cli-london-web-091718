@@ -19,5 +19,5 @@ def get_user_input
   end
 
 def end_game(card_total)
-  puts "Apologies, your card total is: #{card_total}, thank you for playing."
+  puts "Sorry, you hit #{card_total}. Thanks for playing."
 end
