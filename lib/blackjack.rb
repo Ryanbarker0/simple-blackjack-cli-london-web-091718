@@ -36,7 +36,7 @@ def hit?(number)
   if get_user_input == "h"
     number += deal_card
   elsif get_user_input == "s"
-    end_game
+    end_game(number)
   else
     invalid_command
   end
