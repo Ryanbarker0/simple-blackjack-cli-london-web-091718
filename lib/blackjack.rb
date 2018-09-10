@@ -17,3 +17,7 @@ end
 def get_user_input
     return gets.chomp
   end
+
+def end_game(card_total)
+  puts "Apologies, your card total is: #{card_total}, thank you for playing."
+end
