@@ -25,3 +25,8 @@ end
 def initial_round
    display_card_total(deal_card + deal_card)
 end
+
+def hit?
+  prompt_user
+  get_user_input
+end
